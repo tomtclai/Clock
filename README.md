@@ -1,5 +1,5 @@
 # Clock
-Simple Clock for Apple TV
+Simple Clock for tvOS
 
 ![Icon](Icon.png)
 
