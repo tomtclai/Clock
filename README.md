@@ -1,5 +1,5 @@
 # Clock
-Simple Clock for Apple TV
+Simple Clock for tvOS. Created because there's no stock clock app available.
 
 ![Icon](Icon.png)
 
