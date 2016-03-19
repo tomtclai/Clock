@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         updateClockLabel();
         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateClockLabel", userInfo: nil, repeats: true)
         self.performSelector("updateClockLabel", withObject: nil, afterDelay: 1)
+        setNeedsFocusUpdate()   // prevent music app from taking over screen
     }
     func updateClockLabel() {
         let date = NSDate()
