@@ -12,10 +12,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        application.idleTimerDisabled = true
+        application.idleTimerDisabled = true // prevent screensaver
         return true
     }
 
