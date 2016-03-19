@@ -1,5 +1,5 @@
 # Clock
-Simple Clock for tvOS
+Simple Clock for tvOS. Created because there's no stock clock app available.
 
 ![Icon](Icon.png)
 
