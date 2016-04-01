@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         let date = NSDate()
         let timeStr = NSDateFormatter.localizedStringFromDate(date, dateStyle: .NoStyle, timeStyle: .ShortStyle)
         clockLabel.text = timeStr
-        print("1");
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
